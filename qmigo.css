@@ -1,0 +1,129 @@
+body {
+
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	color: #000;
+	background-color: #fff;
+	padding: 10px;
+	margin: 0px;
+}
+
+
+h1 {
+	
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      	font-weight: 300;			
+      	font-size: 24pt;
+		margin:0;
+		padding: 0;
+		}
+		
+
+/* CSS DIVS */ 
+
+
+#wrapper {
+	/* margin:0 auto; allows centered website alignment- DIV styles are set in here*/
+	width:1084px;
+	/* width:800px; */
+	border: 0px solid;
+	margin-top: -8px;
+	/* margin-left:600px; */
+
+	padding: 5px;
+	}
+
+
+#leftside {
+float:left;
+width: 306px;
+margin:auto;
+background-color: white;
+padding-right: 50px;
+}
+
+#logo {
+margin: auto;
+}
+
+#content {
+background-color: white;
+width:600px;
+float:left;
+
+}
+
+#smartphone {
+width: 306px;
+}
+
+#videocontainer {
+/* background-color: orange; */
+float:left;
+padding-top: 10px;
+border: 1px solid #CCC;
+
+}
+
+
+
+/* CSS CLASSES */
+
+.headline {
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      	font-weight: 300;			
+      	font-size: 24pt;
+		margin:0;
+		padding: 0;
+}
+
+.blurb {
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-weight: 300;	
+      	font-size: 12pt;
+		line-height: 18pt;      	
+		margin:0;
+		padding-bottom: 24px;
+		
+}
+
+
+
+a:link { 
+font-weight: 300;			
+color: #000; 
+}
+
+a:visited { 
+color: #CCC; 
+}
+
+a:hover { 
+color: #66CC00; 
+font-weight: bold;			
+}
+
+.bottom-border { 
+border-bottom: 1px solid #CECECE; 
+}
+
+
+div.float {
+  float: left;
+  }
+
+
+.highlight {
+ 	 background-color : #FF9933;
+ 	 padding: 0px;
+ 	 font-size: 18px;
+ 	 }
+ 	 
+.redeem {
+ 	 background-color : #FF9933;
+ 	 padding: 0px;
+ 	 font-size: 28px;
+ 	 } 	 
+ 	 
+
+

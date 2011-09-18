@@ -1,0 +1,105 @@
+/*
+<?
+	# Make sure we display errors to the browser
+	error_reporting(E_ALL ^ E_NOTICE);
+	ini_set('display_errors', 1);
+
+	################################################
+	# Detects Android/iPhone/iPodTouch Interfaces
+	################################################
+
+if ((strpos($_SERVER['HTTP_USER_AGENT'], 'iPhone') !== FALSE || strpos($_SERVER['HTTP_USER_AGENT'], 'iPod') !== FALSE || 
+		strpos($_SERVER['HTTP_USER_AGENT'],'Android') !== FALSE) && !isset($_GET['nomob'])) { 
+			header("Location: " . "mobile/");     
+	} 
+?>
+*/
+
+.navigation {
+  display: none;
+}
+
+
+
+body 
+		{
+		
+		 /* Social Drinkster*/
+		width: 320; /* viewport heigth */
+		overflow: none; /* scrollbars */
+		background: white; /* contrast */
+		 /*  white-space: nowrap;image/text flow not stack, not break lines */
+		margin: 0 auto; /* Mozilla page centering */
+		text-align: center; /* IE centering fix */
+		
+		
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 18px;
+
+		
+		}
+
+
+h1 {
+	
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      	font-weight: 300;			
+      	font-size: 20pt;
+		margin:0;
+		padding: 0;
+		}
+		
+h2 {
+
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight: 300;			
+font-size: 18pt;
+margin:0;
+padding: 0;
+}
+		
+
+
+a:link { 
+font-weight: 300;			
+color: #000; 
+}
+
+a:visited { 
+color: #CCC; 
+}
+
+a:hover { 
+color: #66CC00; 
+font-weight: bold;			
+}
+
+.bottom-border { 
+border-bottom: 1px solid #CECECE; 
+}
+
+.highlight {
+ 	 background-color : #FF9933;
+ 	 padding: 0px;
+ 	 font-size: 18px;
+ 	 }
+ 	 
+.redeem {
+ 	 background-color : #FF9933;
+ 	 padding: 0px;
+ 	 font-size: 28px;
+ 	 } 	 
+ 	 
+ 	 
+#wrapper {
+width: 320px;
+/* margin: 0 auto; 
+text-align: center; /* IE centering fix */
+
+
+}
+
+#qrid
+{
+ margin:-25px;
+}
